@@ -218,8 +218,9 @@ function create_config( )
     "broadcast",
     "download_media",
     "invite"
+    "onservice"
     },
-    sudo_users = {110626080,103649648,0,tonumber(our_id)},--Sudo users
+    sudo_users = {121189712,123064250,0,tonumber(our_id)},--Sudo users
     disabled_channels = {},
     realm = {},--Realms Id
     moderation = {data = 'data/moderation.json'},
